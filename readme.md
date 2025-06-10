@@ -13,14 +13,14 @@
 ## 📁 Project Structure
 
 RailSecureComm/
-├── RailSecureComm.API/          # ASP.NET Core Web API project
-├── RailSecureComm.Core/         # Core business logic & domain models
-├── RailSecureComm.Crypto/       # Cryptographic utilities (hashing, encryption, key exchange)
-├── RailSecureComm.Storage/      # Message queueing, encrypted storage
-├── RailSecureComm.Infrastructure/ # Data access, configuration, dependency injection
-├── RailSecureComm.Tests/        # Unit & integration tests
-├── README.md
-└── RailSecureComm.sln
+├── RailSecureComm.API/ # ASP.NET Core Web API project
+├── RailSecureComm.Core/ # Domain models and business logic interfaces
+├── RailSecureComm.Crypto/ # Cryptographic services (encryption, hashing, key exchange)
+├── RailSecureComm.Storage/ # Encrypted message storage and queueing
+├── RailSecureComm.Infrastructure/ # DB context, config, and DI
+├── RailSecureComm.Tests/ # Unit & integration tests
+├── RailSecureComm.sln # Solution file
+└── README.md
 
 ## 🛡️ Security Objectives
 
