@@ -1,4 +1,4 @@
-# RailSecure-Comm
+# Private-Chat System
 
 **RailSecure-Comm** is a private, end-to-end encrypted communication system tailored for the unique needs of railway networks. It is designed to provide robust message confidentiality, user authentication, and tamper resistance without relying on third-party services.
 
