@@ -12,25 +12,25 @@
 
 ## 📁 Project Structure
 
-- **RailSecureComm.API/**  
+- **PrivateSys.API/**  
   ASP.NET Core Web API project for authentication, messaging, and endpoints.
 
-- **RailSecureComm.Core/**  
+- **PrivateSys.Core/**  
   Domain models, interfaces, and core business logic.
 
-- **RailSecureComm.Crypto/**  
+- **PrivateSys.Crypto/**  
   Custom cryptographic services for encryption, hashing, and secure key management.
 
-- **RailSecureComm.Storage/**  
+- **PrivateSys.Storage/**  
   Secure message storage and delivery queue handling.
 
-- **RailSecureComm.Infrastructure/**  
+- **PrivateSys.Infrastructure/**  
   Database context, dependency injection setup, and config handling.
 
-- **RailSecureComm.Tests/**  
+- **PrivateSys.Tests/**  
   Unit and integration tests for core modules and APIs.
 
-- **RailSecureComm.sln**  
+- **PrivateSys.sln**  
   Solution file for managing the entire system.
 
 - **README.md**  
