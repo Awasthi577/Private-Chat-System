@@ -12,8 +12,6 @@
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 - **RailSecureComm.API/**  
   ASP.NET Core Web API project for authentication, messaging, and endpoints.
 
