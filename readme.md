@@ -21,17 +21,8 @@
 - **PrivateSys.Crypto/**  
   Custom cryptographic services for encryption, hashing, and secure key management.
 
-- **PrivateSys.Storage/**  
-  Secure message storage and delivery queue handling.
-
 - **PrivateSys.Infrastructure/**  
   Database context, dependency injection setup, and config handling.
-
-- **PrivateSys.Tests/**  
-  Unit and integration tests for core modules and APIs.
-
-- **PrivateSys.sln**  
-  Solution file for managing the entire system.
 
 - **README.md**  
   Project overview and documentation.
