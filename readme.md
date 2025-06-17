@@ -24,6 +24,9 @@
 - **PrivateSys.Infrastructure/**  
   Database context, dependency injection setup, and config handling.
 
+- **PrivateSys.Db/**  
+  Database context, dependency injection setup, and config handling
+
 - **README.md**  
   Project overview and documentation.
 
