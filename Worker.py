@@ -2,14 +2,10 @@ import asyncio
 import logging
 from typing import Callable, Awaitable
 
-# Initialize logger
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-# Job registry
 running_jobs: dict[str, asyncio.Task] = {}
-
-# === Sample Background Jobs ===
 
 async def rotate_keys():
     """Simulates a secure key rotation job."""
@@ -22,8 +18,6 @@ async def maintain_connection():
     while True:
         logger.info("🔗 Maintaining secure socket to relay...")
         await asyncio.sleep(15)
-
-# === Job Management Utilities ===
 
 async def start_job(name: str, coro: Callable[[], Awaitable[None]]):
     """Starts a background job if not already running."""
