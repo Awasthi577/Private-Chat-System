@@ -3,8 +3,8 @@ This `README.md` provides a comprehensive overview of the Decentralized Private 
 # Decentralized Private Chat System
 
 A censorship-resistant, end-to-end encrypted chat system designed for secure and private communication. DPCS leverages cutting-edge cryptographic protocols and decentralized networking to ensure user privacy and data integrity.
-![Private Chat System UI](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%202.jpg)
 
+![Private Chat System UI](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS1.jpg)
 
 ## Key Technologies
 
@@ -12,6 +12,7 @@ A censorship-resistant, end-to-end encrypted chat system designed for secure and
   * **Double Ratchet:** Provides forward secrecy and post-compromise security by continuously evolving session keys.
   * **XChaCha20-Poly1305:** An authenticated encryption algorithm securing every message.
   * **libp2p GossipSub:** A peer-to-peer pub/sub messaging protocol enabling decentralized communication without central servers.
+
 
 ## Features
 
@@ -24,10 +25,15 @@ A censorship-resistant, end-to-end encrypted chat system designed for secure and
   * **Modern AEAD (XChaCha20-Poly1305):** Secures every message with authenticated encryption.
   * **Constant Key Rotation:** Per-message ratcheting ensures keys are constantly updated, enhancing security.
   * **Extensible Clients:** Supports various client platforms, including Web, Android, and Desktop applications.
+    
+   
+
 
 ## Architecture
 
 The Decentralized Private Chat System is built with a layered architecture to ensure modularity, scalability, and security.
+
+![Private Chat System UI](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%202.jpg)
 
 ### Layers:
 
@@ -68,6 +74,8 @@ DPCS prioritizes robust security through several key features:
       * **Implementation:** Malleable signatures in Double Ratchet.
   * **Resistance to Attacks:** Protection against various cryptographic and network attacks.
       * **Implementation:** Constant-time operations and rate limiting.
+
+  ![Private Chat System UI](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%203.jpg)
 
 ## Security Checklist
 
