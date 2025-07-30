@@ -60,6 +60,7 @@ The flow involves several key steps to ensure secure key exchange and message en
 
 ![Private Chat System Screenshot](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%205.jpg)
 
+![Private Chat System Screenshot](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%206.jpg)
 
 This process ensures that a robust shared secret is established, which then seeds the Double Ratchet for continuous key evolution and message encryption.
 
