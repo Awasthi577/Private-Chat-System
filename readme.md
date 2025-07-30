@@ -3,6 +3,8 @@ This `README.md` provides a comprehensive overview of the Decentralized Private 
 # Decentralized Private Chat System
 
 A censorship-resistant, end-to-end encrypted chat system designed for secure and private communication. DPCS leverages cutting-edge cryptographic protocols and decentralized networking to ensure user privacy and data integrity.
+![Private Chat System UI](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%202.jpg)
+
 
 ## Key Technologies
 
