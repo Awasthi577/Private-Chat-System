@@ -58,6 +58,9 @@ The flow involves several key steps to ensure secure key exchange and message en
 7.  **Alice: Initialize Double Ratchet:** Alice initializes the Double Ratchet state with the derived shared secret as the root key.
 8.  **Alice: Send Initial Message:** Alice encrypts and sends the first message with her ephemeral public key.
 
+![Private Chat System Screenshot](https://raw.githubusercontent.com/Awasthi577/Private-Chat-System/Assets/DPCS%205.jpg)
+
+
 This process ensures that a robust shared secret is established, which then seeds the Double Ratchet for continuous key evolution and message encryption.
 
 ## Security Features
