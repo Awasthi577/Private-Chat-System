@@ -92,6 +92,7 @@ To maintain the highest level of security, DPCS adheres to the following practic
 
 ## Quick Start Example (Go)
 
+```
 // X3DH and Double Ratchet setup (using github.com/agl/ed25519/extra, github.com/libp2p/go-libp2p)
 import (
 // ... imports ...
@@ -111,7 +112,7 @@ PublishToTopic("chat_bob", msg) // pub-sub
 
 received, err := bobRatchet.Decrypt(msg)
 fmt.Println(string(received)) // "Hello world!"
-
+```
 
 ## How It Works
 
